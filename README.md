@@ -6,7 +6,7 @@ This repository contains the projects and assignments completed as part of my **
 
 ---
 
-## 📌 About the Repository
+## About the Repository
 
 The purpose of this repository is to document and showcase the practical work completed during the CODSOFT internship.
 
@@ -62,7 +62,7 @@ CODSOFT_TASKSNO/
 
 
 ```
-Tasks Overview:
+## Tasks Overview:
 Task	Project	Main Concepts
 - Task 1	Data Cleaning	Data preprocessing, missing values, duplicates
 - Task 2	Exploratory Data Analysis	Statistics, correlation, outliers, business questions
@@ -70,7 +70,7 @@ Task	Project	Main Concepts
 - Task 4	Customer Analysis	Customer segmentation, spending behavior, business insights
 - Task 5	Web Scraping	BeautifulSoup, Requests, data extraction, EDA
 
-Overall Conclusion
+## Overall Conclusion
 
 The CODSOFT internship tasks provided practical experience in different areas of data science and Python programming.
 
