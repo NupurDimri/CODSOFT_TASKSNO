@@ -26,7 +26,7 @@ The projects were implemented using Python and popular data science libraries.
 
 ---
 
-# 🗂️ Repository Structure
+# Repository Structure
 
 ```text
 CODSOFT_TASKSNO/
