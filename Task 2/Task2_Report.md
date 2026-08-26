@@ -3,7 +3,6 @@
 ## Exploratory Data Analysis and Business Insights
 
 ---
-
 ## 1. Objective
 
 The objective of this task is to examine an employee dataset using descriptive statistics and exploratory data analysis techniques.
@@ -121,7 +120,6 @@ Therefore, experience alone does not appear to be a strong predictor of salary i
 ---
 
 ## 7. Outlier Detection
-
 The Interquartile Range (IQR) method was used to identify potential salary outliers.
 
 ### Results
