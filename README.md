@@ -62,13 +62,13 @@ CODSOFT_TASKSNO/
 
 
 ```
-Tasks Overview
+Tasks Overview:
 Task	Project	Main Concepts
-Task 1	Data Cleaning	Data preprocessing, missing values, duplicates
-Task 2	Exploratory Data Analysis	Statistics, correlation, outliers, business questions
-Task 3	Data Visualization	Charts, trends, distributions, visual insights
-Task 4	Customer Analysis	Customer segmentation, spending behavior, business insights
-Task 5	Web Scraping	BeautifulSoup, Requests, data extraction, EDA
+- Task 1	Data Cleaning	Data preprocessing, missing values, duplicates
+- Task 2	Exploratory Data Analysis	Statistics, correlation, outliers, business questions
+- Task 3	Data Visualization	Charts, trends, distributions, visual insights
+- Task 4	Customer Analysis	Customer segmentation, spending behavior, business insights
+- Task 5	Web Scraping	BeautifulSoup, Requests, data extraction, EDA
 
 Overall Conclusion
 
