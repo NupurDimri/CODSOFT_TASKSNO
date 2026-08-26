@@ -1,0 +1,504 @@
+Customer_ID,Name,Age,Gender,Location,Annual_Income,Purchase_Frequency,Total_Purchases,Average_Order_Value,Total_Spending,Preferred_Category
+1,Vivek Singh,28,Female,Bengaluru,71875.0,6,9,1904.68,14665.33,Clothing
+2,Sneha Agarwal,21,Male,Chandigarh,72025.0,5,8,1903.52,16094.51,Clothing
+3,Kunal Bisht,32,Female,Chandigarh,82024.0,5,8,2245.07,16890.43,Clothing
+4,Vivek Mishra,23,Other,Bengaluru,89688.0,6,6,3029.12,18861.64,
+5,Kavya Joshi,47,Female,Noida,78953.0,3,7,2400.34,15040.88,Sports
+6,Ananya Agarwal,55,Male,Mumbai,75456.0,4,10,1743.91,17277.13,Beauty
+7,Arjun Negi,19,Male,Jaipur,70093.0,8,10,1710.32,17125.9,Home & Kitchen
+8,Aditya Mehta,32,Male,Mumbai,22000.0,7,8,2063.64,16930.49,Electronics
+9,Vivaan Negi,28,Female,Bengaluru,58673.0,8,12,2195.95,26455.51,Clothing
+10,Diya Rawat,25,Male,Lucknow,44285.0,6,12,2439.69,29238.43,Clothing
+11,Rahul Verma,43,Male,Jaipur,91636.0,8,15,3093.81,44078.45,Sports
+12,Aarav Kapoor,62,Male,Dehradun,78619.0,10,17,4463.6,66119.39,Electronics
+13,Diya Kumar,61,Female,Mumbai,54921.0,7,7,969.9,5953.24,Sports
+14,Tanvi Agarwal,22,Female,Bengaluru,57130.0,6,9,2702.27,23837.27,Beauty
+15,Nikhil Kapoor,23,Male,Mumbai,56332.0,6,7,2226.64,14912.18,Beauty
+16,Priya Malhotra,43,Male,Jaipur,55940.0,2,8,669.98,5385.78,Clothing
+17,Sneha Rawat,21,Female,Gurugram,33220.0,10,12,3008.94,33993.25,Beauty
+18,Kavya Kapoor,36,Female,Haridwar,28452.0,4,10,2317.65,24483.03,Home & Kitchen
+19,Meera Kumar,37,Female,Mumbai,65639.0,7,11,2843.68,34695.88,Sports
+20,Aditya Patel,50,Male,Dehradun,88657.0,5,12,982.41,11077.56,Home & Kitchen
+21,Kavya Joshi,37,Female,Dehradun,53171.0,7,12,1952.69,21274.05,Home & Kitchen
+22,Ayush Joshi,29,Female,Delhi,71676.0,5,9,1376.7,10963.61,Beauty
+23,Avni Singh,64,Female,Mumbai,81154.0,5,11,4027.4,45846.47,Electronics
+24,Aditi Verma,18,Female,Haridwar,43146.0,5,6,2984.52,17605.51,Clothing
+25,Ayush Mishra,43,Male,Noida,64561.0,7,13,1652.59,19472.9,Books
+26,Vivaan Singh,31,Male,Chandigarh,50337.0,10,16,882.71,14772.2,Electronics
+27,Sneha Kapoor,55,Female,Haridwar,100335.0,10,10,2567.25,22965.21,Clothing
+28,Vivek Kapoor,54,Female,Chandigarh,99374.0,10,12,3280.18,40003.38,Clothing
+29,Kunal Malhotra,28,Female,Chandigarh,43168.0,10,11,680.97,7551.68,Beauty
+30,Aditya Rawat,53,Female,Gurugram,73489.0,6,12,1505.51,19335.6,Electronics
+31,Tanvi Singh,30,Female,Delhi,88487.0,10,13,1456.45,16406.8,Beauty
+32,Avni Negi,60,Female,Haridwar,83663.0,9,11,3005.53,36907.85,Electronics
+33,Arjun Verma,20,Male,Haridwar,66794.0,7,11,1914.9,22346.64,Electronics
+34,Rahul Mehta,50,Female,Gurugram,93744.0,4,5,2110.11,9652.04,Beauty
+35,Nikhil Singh,23,Male,Mumbai,45101.0,4,8,2220.33,16075.57,Clothing
+36,Avni Mishra,27,Male,Mumbai,58332.0,9,16,1457.37,22839.86,Books
+37,Diya Verma,22,Other,Mumbai,45692.0,9,15,929.2,15265.87,Electronics
+38,Nikhil Rawat,40,Male,Lucknow,82215.0,6,10,,37487.5,Home & Kitchen
+39,Arjun Rawat,27,Male,Chandigarh,52182.0,1,5,3293.08,16566.45,Electronics
+40,Priya Malhotra,61,Male,Lucknow,61233.0,8,8,2321.06,20578.39,Clothing
+41,Kunal Rawat,19,Female,Delhi,78589.0,2,6,2483.26,12688.96,Books
+42,Kunal Patel,30,Male,Gurugram,80361.0,11,14,3300.98,39769.33,Books
+43,Priya Bisht,57,Male,Haridwar,45043.0,7,10,2205.58,24780.72,Electronics
+44,Avni Malhotra,19,Male,Chandigarh,88246.0,8,10,2004.21,21697.57,Home & Kitchen
+45,Isha Kumar,37,Male,Lucknow,75025.0,7,13,2291.62,29350.5,Beauty
+46,Sneha Bisht,18,Male,Lucknow,41203.0,4,9,3171.75,30717.6,Electronics
+47,Aarav Kumar,54,Male,Bengaluru,35790.0,4,11,2067.4,25849.96,Electronics
+48,Vivek Kumar,26,Female,Lucknow,64652.0,6,10,1662.41,17981.07,Books
+49,Aarav Kapoor,34,Male,Noida,83702.0,6,10,2429.81,26793.79,Books
+50,Kunal Negi,26,Male,Haridwar,84266.0,4,5,2840.57,15313.26,Books
+51,Ananya Gupta,28,Male,Noida,72836.0,4,4,2676.02,9638.63,Sports
+52,Tanvi Negi,32,Male,Haridwar,66071.0,9,14,2648.69,40792.5,Beauty
+53,Aditya Gupta,41,Female,Gurugram,76258.0,6,8,1606.21,11674.35,Clothing
+54,Aarav Agarwal,55,Female,Haridwar,46183.0,3,10,2703.18,30215.7,Electronics
+55,Rohan Mishra,52,Male,Noida,102114.0,7,12,2445.46,28981.49,Electronics
+56,Vivek Mishra,47,Male,Haridwar,101827.0,7,11,1851.53,21448.17,Beauty
+57,Ayush Kapoor,48,Male,Gurugram,74434.0,4,5,2866.33,14319.79,Sports
+58,Vivek Kumar,22,Female,Gurugram,69341.0,3,9,1863.13,14725.76,Sports
+59,Kunal Kapoor,61,Female,Delhi,55949.0,3,3,886.26,2491.85,Books
+60,Vivaan Sharma,31,Female,Haridwar,76632.0,7,13,1469.31,21872.96,Sports
+61,Priya Joshi,28,Male,Bengaluru,49791.0,5,7,1963.44,15643.71,Books
+62,Rohan Gupta,26,Female,Mumbai,22000.0,6,11,2404.64,25026.55,Clothing
+63,Diya Negi,51,Male,Dehradun,22000.0,7,9,1250.74,12932.65,Sports
+64,Aditya Sharma,29,Male,Gurugram,47411.0,12,16,1901.94,33585.68,Home & Kitchen
+65,Aditya Patel,52,Male,Jaipur,68440.0,7,9,1247.35,11599.84,Clothing
+66,Sneha Rawat,52,Male,Mumbai,72303.0,2,8,3029.44,20891.92,Books
+67,Aditya Sharma,18,Female,Chandigarh,54291.0,7,8,3509.61,31458.29,Books
+68,Rohan Mishra,57,Female,Haridwar,68120.0,4,6,3506.15,21399.34,Electronics
+69,Aditi Joshi,39,Male,Noida,58967.0,11,14,2935.79,45644.49,Electronics
+70,Ayush Malhotra,46,Female,Dehradun,43015.0,7,8,2758.1,24278.53,Beauty
+71,Sneha Mishra,25,Other,Jaipur,63818.0,4,9,535.4,5299.99,Home & Kitchen
+72,Nikhil Kapoor,28,Female,Mumbai,82885.0,8,8,2449.05,20757.21,Books
+73,Isha Gupta,58,Female,Haridwar,44011.0,4,4,1677.19,6288.96,Electronics
+74,Vivek Sharma,54,Female,Delhi,44021.0,9,13,2778.5,34345.11,Electronics
+75,Meera Bisht,31,Other,Chandigarh,41476.0,1,5,500.0,2356.35,Clothing
+76,Arjun Rawat,47,Female,Dehradun,22397.0,4,7,2098.76,12575.97,Electronics
+77,Rohan Joshi,52,Male,Bengaluru,54436.0,4,9,1965.06,18123.62,Electronics
+78,Vivek Bisht,38,Male,Delhi,80710.0,6,12,3189.0,40550.69,Books
+79,Sneha Agarwal,54,Female,Jaipur,68826.0,9,9,3461.35,34459.26,Clothing
+80,Arjun Bisht,22,Male,Dehradun,61276.0,10,10,1434.58,12797.17,Clothing
+81,Vivek Agarwal,36,Female,Delhi,67839.0,4,4,1510.07,6120.34,Electronics
+82,Kavya Mehta,31,Male,Chandigarh,54242.0,2,8,2319.85,15819.57,Clothing
+83,Vivaan Mishra,43,Male,Bengaluru,22146.0,7,7,3329.89,20477.81,Sports
+84,Isha Rawat,21,Male,Delhi,82242.0,7,9,2351.57,18333.71,Home & Kitchen
+85,Rahul Kapoor,42,Male,Lucknow,88565.0,10,15,1318.06,21108.27,Beauty
+86,Diya Kapoor,62,Female,Bengaluru,48981.0,9,10,1619.19,14156.87,Home & Kitchen
+87,Meera Rawat,59,Female,Jaipur,61682.0,7,8,2342.22,19954.51,Clothing
+88,Ananya Mishra,42,Female,Chandigarh,59786.0,3,6,2360.88,13101.29,Home & Kitchen
+89,Vivek Rawat,35,Female,Haridwar,72728.0,12,14,1683.1,26233.46,Clothing
+90,Aarav Sharma,57,Male,Noida,102178.0,8,8,1922.44,16824.35,Sports
+91,Meera Bisht,25,Female,Noida,90515.0,6,6,1567.84,10699.09,Clothing
+92,Ayush Gupta,56,Female,Noida,56708.0,7,11,3063.18,37574.24,Beauty
+93,Vivek Mehta,57,Female,Dehradun,76934.0,3,7,1603.78,12685.89,Electronics
+94,Kunal Agarwal,31,Male,Jaipur,92596.0,7,10,1993.74,22083.12,Beauty
+95,Ayush Rawat,49,Female,Chandigarh,73984.0,9,9,1859.3,17704.5,Books
+96,Rohan Sharma,55,Female,Bengaluru,64897.0,5,8,914.62,6593.15,Home & Kitchen
+97,Kavya Mishra,50,Other,Dehradun,74812.0,9,11,1568.14,16068.16,Home & Kitchen
+98,Diya Negi,40,Female,Jaipur,49528.0,6,7,3089.68,19763.84,Books
+99,Sneha Agarwal,32,Male,Haridwar,52740.0,12,12,1159.01,14340.33,Beauty
+100,Ayush Singh,50,Female,Lucknow,41591.0,13,18,1288.63,23220.53,Clothing
+101,Tanvi Rawat,42,Female,Chandigarh,71755.0,6,12,1174.49,15645.95,Clothing
+102,Tanvi Mishra,34,Male,Noida,62109.0,3,5,2110.16,11983.62,Beauty
+103,Meera Kapoor,50,Female,Delhi,46891.0,2,2,3599.73,6993.97,Beauty
+104,Vivek Verma,64,Female,Chandigarh,61388.0,9,15,2072.17,31141.77,Clothing
+105,Aditya Sharma,19,Male,Gurugram,75340.0,3,8,2315.45,21143.85,Clothing
+106,Rohan Sharma,31,Male,Jaipur,107124.0,5,9,1816.39,15250.13,Books
+107,Tanvi Agarwal,57,Male,Mumbai,87265.0,7,10,2284.3,24846.72,Electronics
+108,Tanvi Verma,57,Male,Haridwar,22000.0,3,7,2925.24,18788.83,Clothing
+109,Vivaan Kapoor,56,Male,Lucknow,70265.0,5,6,2345.92,14841.76,Electronics
+110,Rohan Sharma,23,Female,Haridwar,96445.0,7,11,4094.09,41706.21,Sports
+111,Aarav Gupta,23,Male,Chandigarh,35567.0,8,8,3030.99,27039.34,Electronics
+112,Vivaan Patel,20,Male,Mumbai,77134.0,10,15,2203.75,33665.92,Beauty
+113,Diya Mishra,24,Female,Gurugram,59794.0,7,11,2084.13,20765.4,Electronics
+114,Rahul Joshi,25,Female,Bengaluru,90306.0,8,8,3656.57,26833.69,Beauty
+115,Arjun Joshi,59,Male,Delhi,73894.0,9,10,2363.22,23588.59,Sports
+116,Ananya Negi,32,Male,Mumbai,45552.0,9,15,3210.45,54825.53,Clothing
+117,Tanvi Malhotra,64,Male,Jaipur,60581.0,13,18,3775.81,73462.41,Home & Kitchen
+118,Rahul Negi,46,Female,Noida,61883.0,8,12,2017.92,24130.12,Clothing
+119,Rohan Singh,50,Male,Gurugram,62290.0,2,5,2465.3,11726.39,Clothing
+120,Vivaan Mehta,47,Female,Delhi,89624.0,5,8,3131.75,25424.31,Sports
+121,Ananya Malhotra,56,Other,Lucknow,46462.0,3,8,2702.77,23233.19,Clothing
+122,Priya Sharma,44,Male,,,6,9,2940.79,28721.54,Beauty
+123,Ayush Kapoor,53,Female,Chandigarh,58351.0,9,13,1093.33,13465.42,Electronics
+124,Rahul Bisht,46,Other,Mumbai,,11,15,1550.77,24804.9,Clothing
+125,Aditya Singh,55,Male,Delhi,66592.0,7,12,1813.34,22790.13,Clothing
+126,Arjun Gupta,50,Female,Dehradun,64520.0,4,8,3168.66,28840.73,Home & Kitchen
+127,Aditya Malhotra,54,Female,Bengaluru,64701.0,4,10,1209.91,13663.84,Home & Kitchen
+128,Kavya Singh,44,Female,Bengaluru,97062.0,11,11,3610.95,43168.73,Beauty
+129,Vivek Singh,50,Female,Gurugram,83534.0,6,7,2935.07,21922.42,Electronics
+130,Ayush Sharma,21,Female,Lucknow,57020.0,9,15,3075.5,43005.29,Electronics
+131,Kunal Joshi,39,Female,Gurugram,99821.0,7,13,1665.3,23895.83,Sports
+132,Avni Negi,19,Female,Dehradun,71043.0,8,11,2294.1,24686.28,Sports
+133,Aarav Agarwal,27,Female,Jaipur,72868.0,3,3,2486.36,6949.42,Electronics
+134,Avni Joshi,22,Female,Lucknow,46579.0,5,10,2293.45,22137.49,Home & Kitchen
+135,Nikhil Gupta,27,Female,Haridwar,54055.0,4,11,2370.86,28707.76,Clothing
+136,Vivek Kapoor,50,Male,Jaipur,49853.0,8,11,1887.9,18577.86,Sports
+137,Priya Mishra,55,Male,Lucknow,66894.0,7,7,2319.53,16023.16,Sports
+138,Priya Kumar,30,Male,Lucknow,79053.0,4,8,3111.17,24832.3,Sports
+139,Meera Kapoor,48,Male,Dehradun,73079.0,7,12,1315.26,13589.09,Sports
+140,Tanvi Verma,64,Male,Chandigarh,99937.0,6,13,3647.26,43086.58,Clothing
+141,Aarav Rawat,53,Female,Dehradun,45469.0,4,9,2868.33,28345.42,Sports
+142,Diya Patel,62,Male,Lucknow,67527.0,8,15,1443.0,23792.84,Home & Kitchen
+143,Rohan Agarwal,41,Female,Delhi,36775.0,14,21,2337.72,46034.88,Electronics
+144,Ayush Kumar,32,Male,Jaipur,44719.0,8,11,2799.51,34258.05,Home & Kitchen
+145,Aditya Gupta,46,Female,Dehradun,92821.0,10,14,1378.69,20875.42,Books
+146,Priya Gupta,25,Other,Chandigarh,54810.0,4,7,2172.44,14832.56,Books
+147,Meera Negi,22,Male,Mumbai,47326.0,6,13,2031.14,28372.56,Electronics
+148,Aarav Negi,46,Female,Gurugram,22000.0,4,11,1425.54,17851.19,Beauty
+149,Meera Agarwal,64,Male,Lucknow,47106.0,6,8,2166.52,17118.82,Sports
+150,Tanvi Negi,21,Female,Haridwar,60484.0,12,12,1692.67,18718.12,Clothing
+151,Arjun Mehta,29,Male,Mumbai,35137.0,7,9,3120.27,31804.61,Home & Kitchen
+152,Kunal Singh,62,Female,Bengaluru,59219.0,10,10,1664.0,17157.89,
+153,Aditya Rawat,19,Male,Noida,92954.0,6,7,3001.31,18521.25,Clothing
+154,Aditya Kumar,44,Female,Chandigarh,49439.0,9,15,782.32,11990.68,Electronics
+155,Avni Rawat,48,Female,Haridwar,44246.0,4,9,1946.03,17517.32,Beauty
+156,Avni Verma,53,Male,Noida,40274.0,6,9,2061.49,20532.63,Books
+157,Aditya Bisht,53,Male,Chandigarh,39881.0,8,9,1893.85,17201.61,Beauty
+158,Ayush Singh,43,Male,Delhi,76783.0,6,7,1953.64,12671.29,Sports
+159,Aarav Singh,60,Male,Gurugram,66071.0,9,14,1672.41,24647.49,Clothing
+160,Aarav Rawat,44,Female,Mumbai,86051.0,6,11,2929.94,32640.99,Electronics
+161,Priya Singh,22,Male,Jaipur,109436.0,1,1,3266.18,3004.6,Beauty
+162,Kunal Joshi,37,Male,Chandigarh,24731.0,5,7,1892.66,13541.26,Clothing
+163,Aditya Sharma,28,Male,Jaipur,73362.0,10,14,1372.86,21074.02,Sports
+164,Aarav Kapoor,27,Female,Gurugram,40390.0,7,7,3487.5,20959.87,Electronics
+165,Kavya Mehta,57,Male,Lucknow,82356.0,6,10,1600.3,16631.2,Clothing
+166,Aditi Rawat,55,Male,Bengaluru,59018.0,4,5,996.57,4758.0,Clothing
+167,Rahul Mehta,23,Male,Mumbai,65601.0,2,6,593.51,3339.57,Books
+168,Isha Gupta,25,Male,Gurugram,36770.0,7,9,2110.18,18379.64,Electronics
+169,Kunal Agarwal,40,Female,Gurugram,55619.0,3,3,1969.78,5629.28,Electronics
+170,Vivaan Patel,64,Male,Delhi,66973.0,9,16,3036.6,53428.21,Electronics
+171,Aarav Kapoor,43,Male,Noida,94834.0,7,12,2867.87,32089.38,Sports
+172,Sneha Sharma,63,Female,Bengaluru,47520.0,5,12,2327.28,29880.76,Electronics
+173,Rohan Kapoor,60,Female,Mumbai,52885.0,8,10,1910.22,16775.89,Clothing
+174,Priya Gupta,29,Male,Lucknow,85774.0,5,11,3212.63,40124.49,Electronics
+175,Arjun Gupta,43,Female,Lucknow,46095.0,6,8,3580.48,29694.93,Beauty
+176,Tanvi Sharma,30,Female,Dehradun,90132.0,4,10,3157.98,33538.24,Electronics
+177,Diya Kapoor,57,Male,Gurugram,64800.0,6,6,1827.97,10303.3,Clothing
+178,Aditi Patel,35,Female,Chandigarh,71669.0,8,13,2865.27,36266.23,Clothing
+179,Rahul Gupta,42,Female,Delhi,73085.0,6,8,1926.84,14137.36,Home & Kitchen
+180,Ayush Patel,50,Male,Bengaluru,51443.0,9,16,1234.6,22316.84,Beauty
+181,Tanvi Rawat,64,Male,Lucknow,73578.0,4,10,1532.24,15267.72,Home & Kitchen
+182,Aditya Kapoor,57,Male,Mumbai,48008.0,4,9,1811.51,16941.62,Books
+183,Aarav Singh,60,Female,Dehradun,53954.0,5,8,2216.89,18981.57,Books
+184,Aarav Gupta,29,Other,Mumbai,77291.0,4,7,3922.21,26393.82,Clothing
+185,Avni Kumar,61,Female,Delhi,71455.0,6,9,1533.38,14711.67,Sports
+186,Nikhil Malhotra,53,Male,Chandigarh,63351.0,6,10,3248.9,34204.35,Beauty
+187,Aditya Negi,65,Female,Dehradun,37308.0,9,11,1780.04,20788.51,Books
+188,Aditi Negi,21,Female,Dehradun,42799.0,6,6,500.0,2990.31,Home & Kitchen
+189,Avni Malhotra,22,Male,Noida,71088.0,8,15,1831.95,26514.21,Home & Kitchen
+190,Vivaan Malhotra,54,Male,Bengaluru,81107.0,4,4,3238.0,11872.12,Clothing
+191,Nikhil Verma,25,Female,Dehradun,40588.0,10,14,2329.26,35785.42,Sports
+192,Tanvi Negi,59,Male,Noida,46524.0,4,4,2412.7,9964.5,Electronics
+193,Aarav Kumar,45,Female,Noida,67952.0,6,12,3280.52,38709.05,Electronics
+194,Ananya Mehta,48,Male,Delhi,67481.0,4,7,1385.82,10992.87,Clothing
+195,Priya Joshi,26,Male,Jaipur,29273.0,9,16,1144.24,15824.41,Electronics
+196,Nikhil Joshi,46,Male,Mumbai,68554.0,4,6,500.0,3315.15,Home & Kitchen
+197,Aditya Verma,31,Male,Chandigarh,51836.0,5,5,2822.68,16220.17,Electronics
+198,Isha Kapoor,57,Female,Haridwar,101103.0,3,3,2866.61,9598.12,Clothing
+199,Vivek Kumar,58,Male,Mumbai,70482.0,2,3,2812.07,9221.88,Books
+200,Arjun Bisht,39,Female,Dehradun,74272.0,9,10,1309.22,12598.52,Clothing
+201,Meera Sharma,28,Female,Chandigarh,74842.0,8,9,975.65,8073.06,Beauty
+202,Kunal Rawat,40,Female,Lucknow,38294.0,5,7,984.07,7373.82,Electronics
+203,Priya Rawat,18,Male,Jaipur,107765.0,6,9,1718.53,14559.99,Clothing
+204,Diya Gupta,63,Female,Lucknow,29296.0,6,11,3228.94,32066.38,Sports
+205,Sneha Kapoor,54,Female,Lucknow,82505.0,3,6,3105.13,20232.24,Sports
+206,Vivaan Verma,38,Male,Bengaluru,78611.0,3,10,1915.09,18073.91,Clothing
+207,Kavya Kumar,43,Male,Mumbai,54506.0,4,7,2376.44,18703.36,Books
+208,Tanvi Singh,63,Female,Haridwar,79662.0,11,13,1745.28,25007.19,Books
+209,Nikhil Mehta,53,Other,Delhi,58013.0,4,10,2449.5,27049.63,Books
+210,Sneha Mehta,40,Male,Haridwar,50140.0,6,12,1200.36,15577.85,Clothing
+211,Ananya Kapoor,18,Female,Lucknow,75330.0,6,8,2862.18,25513.8,Electronics
+212,Rohan Sharma,57,Female,Dehradun,42856.0,6,7,1387.37,10602.38,Beauty
+213,Kunal Patel,32,Female,Jaipur,60066.0,1,1,2815.13,2901.7,Beauty
+214,Diya Kapoor,38,Other,Gurugram,51928.0,2,6,1779.63,10023.73,Electronics
+215,Rohan Joshi,64,Female,Haridwar,57608.0,7,11,1523.59,18711.35,Sports
+216,Arjun Mehta,26,Male,Lucknow,74520.0,4,9,3547.52,35190.09,Electronics
+217,Isha Singh,26,Male,Jaipur,51924.0,3,3,2263.1,6734.06,Home & Kitchen
+218,Sneha Gupta,27,Male,Chandigarh,60769.0,13,18,1916.87,29732.62,Clothing
+219,Kunal Singh,43,Female,Mumbai,53931.0,4,5,2740.13,14270.09,Beauty
+220,Priya Bisht,58,Female,Noida,96768.0,13,18,1318.62,20535.16,Clothing
+221,Avni Kapoor,52,Male,Bengaluru,72537.0,4,4,3130.71,14124.31,Sports
+222,Nikhil Rawat,42,Female,Jaipur,69842.0,6,13,2117.5,31339.77,Home & Kitchen
+223,Kavya Sharma,43,Female,Dehradun,80035.0,8,8,2770.84,20101.82,
+224,Kavya Kapoor,28,Female,Dehradun,51929.0,3,7,883.28,6510.14,Books
+225,Rohan Mishra,55,Male,Jaipur,83904.0,7,13,2007.48,22905.04,Beauty
+226,Ayush Kapoor,19,Female,Dehradun,72616.0,7,8,2249.36,19233.92,Books
+227,Aarav Mishra,24,Male,Mumbai,30660.0,4,11,2818.2,29579.97,Electronics
+228,Aarav Malhotra,35,Male,Dehradun,33583.0,5,7,2555.83,18862.55,Clothing
+229,Vivaan Rawat,44,Male,Haridwar,52409.0,8,15,,26121.36,Electronics
+230,Priya Kumar,51,Male,Noida,35938.0,9,16,2279.99,32600.95,Clothing
+231,Kunal Bisht,44,Male,Dehradun,59758.0,6,11,3173.8,33928.44,Sports
+232,Aarav Bisht,34,Female,Noida,42698.0,7,11,1906.2,18531.74,Electronics
+233,Vivek Malhotra,60,Male,Lucknow,62850.0,4,9,1940.01,17862.81,Home & Kitchen
+234,Rohan Mehta,61,Female,Delhi,96058.0,6,11,874.58,8295.51,Home & Kitchen
+235,Aditya Kapoor,41,Male,Mumbai,63914.0,13,15,1970.23,29795.67,Home & Kitchen
+236,Priya Gupta,42,Female,Delhi,58335.0,10,11,768.31,9431.02,Home & Kitchen
+237,Rohan Mehta,24,Other,Lucknow,73541.0,4,4,2159.78,9514.8,Sports
+238,Aditi Kapoor,23,Male,Mumbai,49679.0,5,8,2898.58,25851.5,Electronics
+239,Rohan Malhotra,41,Male,Jaipur,83555.0,1,6,615.62,4161.4,Clothing
+240,Tanvi Rawat,50,Male,Jaipur,75895.0,7,10,3252.74,28668.3,Home & Kitchen
+241,Aditi Rawat,46,Female,Noida,65855.0,4,5,1940.95,8623.88,Beauty
+242,Meera Patel,60,Female,Lucknow,68395.0,4,7,2198.64,15653.69,Clothing
+243,Diya Mishra,39,Male,Noida,109918.0,4,9,2067.57,20807.46,Sports
+244,Priya Patel,43,Female,Bengaluru,85731.0,3,5,953.8,5447.65,Clothing
+245,Vivek Singh,45,Male,Dehradun,113390.0,7,10,1863.95,16102.26,Clothing
+246,Aarav Rawat,38,Male,Gurugram,76705.0,7,8,3948.16,30218.66,Electronics
+247,Rohan Joshi,24,Female,Bengaluru,32623.0,7,8,1128.9,8253.33,Home & Kitchen
+248,Nikhil Mehta,34,Male,Dehradun,59232.0,8,14,894.56,13485.54,Beauty
+249,Rohan Singh,37,Female,Mumbai,27595.0,6,12,2088.6,26117.31,Electronics
+250,Vivaan Singh,58,Male,Noida,76623.0,4,6,2201.12,11700.71,Clothing
+251,Nikhil Mishra,37,Other,Mumbai,81399.0,3,6,2039.73,12177.88,Sports
+252,Kavya Mishra,39,Male,Mumbai,45510.0,8,11,2094.62,24322.63,Clothing
+253,Aarav Negi,45,Male,Dehradun,50576.0,5,11,2628.82,31337.42,Clothing
+254,Rohan Bisht,57,Female,Lucknow,68273.0,5,5,1749.91,7489.75,Beauty
+255,Arjun Negi,24,Male,Dehradun,38642.0,6,10,2197.38,24547.83,Electronics
+256,Priya Joshi,18,Other,Chandigarh,36990.0,4,5,2851.04,14551.49,Books
+257,Vivaan Sharma,49,Female,Jaipur,92250.0,8,8,1567.27,13711.39,Electronics
+258,Meera Negi,30,Female,Jaipur,67524.0,2,3,500.0,1638.57,Beauty
+259,Diya Verma,47,Female,Bengaluru,52722.0,4,11,2662.98,26567.26,Home & Kitchen
+260,Aditya Kapoor,40,Female,Jaipur,27773.0,9,16,3979.01,56218.74,Sports
+261,Aarav Sharma,36,Female,Dehradun,83752.0,9,9,2306.63,22137.83,Electronics
+262,Kavya Agarwal,49,Female,Haridwar,49941.0,5,12,2271.19,24445.13,Beauty
+263,Rohan Kapoor,47,Female,Noida,105935.0,3,9,2208.96,21967.73,Home & Kitchen
+264,Aditya Sharma,46,Male,Dehradun,83905.0,6,12,3583.88,45924.85,Home & Kitchen
+265,Aarav Negi,62,Male,Dehradun,47221.0,6,10,2031.12,22394.07,Home & Kitchen
+266,Nikhil Agarwal,46,Female,Gurugram,49260.0,4,4,1956.31,7353.41,Beauty
+267,Diya Bisht,47,Male,Noida,102881.0,8,9,3155.98,26841.03,Books
+268,Isha Kapoor,33,Female,Chandigarh,63146.0,7,10,1801.46,18939.95,Electronics
+269,Aditi Verma,57,Male,Jaipur,53707.0,6,7,1104.49,6644.65,Electronics
+270,Kavya Verma,36,Male,Noida,65610.0,9,14,2909.5,43500.77,Sports
+271,Aditya Joshi,35,Female,Jaipur,53606.0,5,11,1658.4,20080.05,Electronics
+272,Tanvi Mishra,18,Female,Bengaluru,70303.0,4,6,1451.45,8487.06,Books
+273,Kunal Bisht,31,Male,Noida,63332.0,8,10,3870.03,41775.57,Home & Kitchen
+274,Nikhil Mishra,64,Female,,84261.0,4,10,2172.69,19605.99,Beauty
+275,Vivaan Gupta,19,Female,Chandigarh,56451.0,5,10,2544.09,24084.34,Electronics
+276,Ayush Joshi,45,Male,Delhi,45534.0,5,7,2106.83,16846.3,Clothing
+277,Arjun Mishra,47,Female,Mumbai,57322.0,6,13,1444.88,21523.91,Beauty
+278,Avni Bisht,55,Male,Mumbai,57188.0,3,9,2704.67,24434.08,Books
+279,Ananya Bisht,21,Male,Chandigarh,63294.0,1,3,2441.43,8278.51,Books
+280,Arjun Kumar,18,Other,Gurugram,78960.0,5,11,1756.26,19450.6,Electronics
+281,Arjun Mishra,25,Male,Delhi,77758.0,7,11,2623.1,27050.04,Electronics
+282,Rohan Kumar,46,Female,Bengaluru,91392.0,4,7,1946.9,12675.27,Electronics
+283,Aditya Sharma,56,Female,Chandigarh,47147.0,6,9,1209.29,12285.98,Sports
+284,Aditya Singh,20,Male,Mumbai,73552.0,5,6,1286.78,6962.0,Clothing
+285,Avni Sharma,49,Female,Mumbai,81001.0,6,11,2512.05,28292.68,Electronics
+286,Vivek Negi,27,Female,Mumbai,50167.0,7,13,1804.82,23853.49,Electronics
+287,Rohan Kapoor,27,Male,Lucknow,60432.0,5,5,3373.96,18082.51,Clothing
+288,Tanvi Joshi,36,Female,Chandigarh,26500.0,1,2,1934.63,3868.38,Books
+289,Isha Joshi,63,Female,Dehradun,84951.0,4,5,1691.54,7879.92,Home & Kitchen
+290,Aditya Kumar,51,Female,Bengaluru,60259.0,7,13,2297.81,26908.84,Electronics
+291,Tanvi Sharma,50,Female,Mumbai,82744.0,4,10,1271.05,13171.2,Clothing
+292,Meera Kumar,40,Male,Jaipur,69533.0,3,4,2159.89,9207.16,Clothing
+293,Isha Agarwal,45,Female,Chandigarh,60926.0,6,7,2430.89,17371.13,Electronics
+294,Kavya Sharma,49,Female,Lucknow,29958.0,3,6,2146.29,13798.57,Electronics
+295,Arjun Kapoor,24,Female,Chandigarh,33871.0,10,10,3055.47,27268.74,Beauty
+296,Ayush Gupta,46,Female,Bengaluru,22000.0,7,14,4020.01,62737.78,Electronics
+297,Diya Kumar,25,Female,Lucknow,52623.0,8,9,2662.86,24558.14,Electronics
+298,Vivek Kapoor,18,Female,Bengaluru,115121.0,4,11,3443.76,33640.66,Clothing
+299,Aditi Malhotra,20,Female,Chandigarh,36665.0,1,4,4064.76,16073.32,Beauty
+300,Meera Gupta,41,Female,Dehradun,22000.0,6,7,1137.02,8782.41,Home & Kitchen
+301,Sneha Patel,40,Female,Bengaluru,86179.0,8,10,2431.58,27215.91,Beauty
+302,Rohan Gupta,25,Female,Lucknow,117002.0,6,7,2129.61,13854.74,Home & Kitchen
+303,Diya Kumar,64,Female,Lucknow,71554.0,11,17,2913.45,52667.76,Beauty
+304,Meera Agarwal,54,Male,Bengaluru,71352.0,5,10,2455.41,21607.5,Electronics
+305,Arjun Patel,20,Male,Haridwar,58183.0,4,9,1504.35,11644.53,Books
+306,Priya Kumar,50,Male,Chandigarh,25526.0,10,11,1971.91,22084.04,Electronics
+307,Vivek Bisht,45,Female,Haridwar,33084.0,4,8,2846.04,24099.09,Clothing
+308,Nikhil Mishra,64,Female,Gurugram,58031.0,2,4,1115.21,4856.68,Sports
+309,Vivek Rawat,25,Female,Chandigarh,53814.0,5,5,1495.01,7116.73,Clothing
+310,Rohan Gupta,51,Male,Bengaluru,62466.0,8,9,1426.98,10941.54,Books
+311,Ananya Agarwal,52,Female,Delhi,83245.0,6,13,2570.59,33212.34,Home & Kitchen
+312,Avni Malhotra,49,Male,Bengaluru,52200.0,7,7,3115.61,18641.61,Sports
+313,Diya Kumar,41,Male,Haridwar,83694.0,9,11,704.38,6799.77,Sports
+314,Nikhil Mishra,31,Female,Dehradun,52344.0,6,7,2199.58,14596.52,Books
+315,Diya Sharma,49,Female,Bengaluru,87841.0,6,10,1597.67,15675.57,Books
+316,Rahul Joshi,63,Male,Bengaluru,66900.0,6,9,3015.72,25345.82,Books
+317,Aditi Bisht,60,Male,Dehradun,55412.0,9,13,1952.9,26011.21,Beauty
+318,Kunal Mishra,33,Male,Bengaluru,66524.0,4,10,2313.68,20050.47,Clothing
+319,Ayush Verma,21,Male,Mumbai,58542.0,6,10,2160.18,19298.48,Electronics
+320,Vivaan Patel,54,Female,Delhi,67489.0,3,10,3114.31,32967.39,Beauty
+321,Rohan Mehta,38,Male,Jaipur,81678.0,14,17,3938.97,59773.55,Books
+322,Kavya Negi,31,Female,Delhi,63081.0,3,9,1280.75,12010.1,Beauty
+323,Priya Bisht,48,Female,Bengaluru,56869.0,5,8,1389.17,9628.67,Books
+324,Aarav Mehta,65,Male,Mumbai,40283.0,6,11,2308.9,24692.21,Sports
+325,Meera Sharma,35,Male,Chandigarh,77742.0,7,10,1623.33,14662.29,Electronics
+326,Vivek Kumar,24,Male,Bengaluru,72662.0,9,10,2992.84,26423.51,Clothing
+327,Isha Singh,27,Male,Haridwar,38997.0,4,4,2919.28,11911.94,Clothing
+328,Arjun Mehta,24,Male,Mumbai,83381.0,8,13,1873.02,27478.16,Electronics
+329,Kavya Bisht,50,Female,Dehradun,38640.0,10,15,1431.01,18598.18,Home & Kitchen
+330,Diya Mehta,40,Male,Mumbai,87643.0,13,13,2116.03,26861.02,Books
+331,Vivek Agarwal,38,Other,Dehradun,80133.0,10,17,2374.01,42870.9,Sports
+332,Nikhil Mishra,36,Male,Gurugram,74233.0,5,10,2507.27,24792.04,Clothing
+333,Kavya Joshi,65,Female,Jaipur,56706.0,5,8,500.0,4367.8,Electronics
+334,Aditya Bisht,36,Female,Noida,77667.0,7,11,1502.04,14934.53,Clothing
+335,Isha Verma,53,Female,Mumbai,88680.0,6,8,2018.8,18377.19,Home & Kitchen
+336,Meera Kapoor,46,Female,Lucknow,78032.0,5,12,1640.6,19008.95,Clothing
+337,Kunal Bisht,35,Female,Haridwar,50254.0,4,7,500.0,3333.65,Electronics
+338,Ayush Joshi,19,Female,Bengaluru,70883.0,5,11,724.6,8866.35,Home & Kitchen
+339,Aarav Gupta,18,Female,Haridwar,89905.0,5,11,1305.14,14631.61,Clothing
+340,Isha Kapoor,64,Female,Delhi,113380.0,7,11,2398.05,26508.68,Books
+341,Tanvi Kumar,22,Male,Noida,60485.0,9,16,1823.95,31170.38,Electronics
+342,Aarav Mehta,37,Male,Delhi,83873.0,3,10,1807.98,18512.82,Electronics
+343,Rahul Mishra,28,Female,Gurugram,89959.0,7,11,2986.97,29530.09,Electronics
+344,Diya Bisht,59,Female,Noida,47127.0,4,11,2729.67,31595.53,Clothing
+345,Isha Bisht,19,Female,Noida,104206.0,11,16,2555.17,36387.28,Beauty
+346,Sneha Patel,20,Female,Delhi,41566.0,2,3,2155.49,7059.82,Beauty
+347,Priya Mehta,40,Other,Dehradun,82798.0,7,8,1621.46,14877.49,Home & Kitchen
+348,Ananya Kapoor,29,Male,Delhi,71717.0,8,15,1650.71,23849.86,Beauty
+349,Rohan Singh,37,Male,Haridwar,66223.0,6,11,841.22,9100.06,Clothing
+350,Aditya Gupta,22,Male,Dehradun,121030.0,7,12,2335.58,24213.33,Beauty
+351,Meera Kumar,54,Male,Haridwar,58372.0,4,4,2788.83,9527.98,Electronics
+352,Avni Malhotra,55,Female,Gurugram,58018.0,9,9,3241.57,32862.49,Clothing
+353,Ayush Sharma,47,Male,Bengaluru,94293.0,7,9,2179.93,17433.52,Sports
+354,Aditi Malhotra,26,Female,Chandigarh,81760.0,6,8,2693.9,21200.64,Sports
+355,Aarav Patel,51,Male,Dehradun,93206.0,4,6,500.0,3283.82,Beauty
+356,Aditya Joshi,61,Female,Gurugram,67571.0,5,7,1869.08,14611.66,Electronics
+357,Ananya Kapoor,52,Female,Lucknow,71973.0,9,13,1876.75,24539.73,Clothing
+358,Nikhil Negi,39,Male,Gurugram,106821.0,8,12,3643.86,44579.41,Books
+359,Rahul Kapoor,61,Female,Delhi,46609.0,2,2,2404.0,5052.75,Electronics
+360,Kunal Mishra,41,Male,Delhi,62737.0,5,6,2581.83,17635.16,Electronics
+361,Arjun Mishra,34,Male,Chandigarh,82562.0,8,13,2659.23,35634.78,Electronics
+362,Kunal Mishra,27,Male,Gurugram,60691.0,9,15,2210.5,33749.12,Clothing
+363,Avni Kapoor,47,Male,Jaipur,52457.0,6,7,3350.63,20038.52,Electronics
+364,Rohan Kumar,63,Male,Bengaluru,78607.0,9,12,500.0,5245.71,Home & Kitchen
+365,Arjun Agarwal,40,Female,Delhi,94388.0,6,10,2493.3,25510.24,Home & Kitchen
+366,Tanvi Kumar,49,Female,Chandigarh,61902.0,3,5,3085.25,17445.12,Books
+367,Aarav Patel,34,Female,Bengaluru,61291.0,3,5,664.63,3688.72,Electronics
+368,Meera Bisht,34,Male,Gurugram,50751.0,8,11,2784.84,35068.13,Clothing
+369,Priya Bisht,31,Female,Gurugram,58489.0,3,4,1552.0,6259.84,Home & Kitchen
+370,Isha Rawat,26,Male,Noida,88839.0,4,6,2430.89,15845.21,Home & Kitchen
+371,Aditya Bisht,57,Male,Chandigarh,66783.0,7,8,1586.41,13987.31,Home & Kitchen
+372,Rahul Verma,19,Female,Delhi,47290.0,4,9,2861.06,26893.06,Sports
+373,Kavya Patel,62,Male,Jaipur,70772.0,10,13,2003.94,24790.99,Electronics
+374,Sneha Kumar,42,Female,Gurugram,88126.0,4,10,3015.39,29882.32,Sports
+375,Vivaan Mishra,56,Female,Jaipur,52639.0,3,4,2474.1,10959.03,Home & Kitchen
+376,Avni Agarwal,26,Male,Gurugram,35771.0,6,11,1389.59,14361.7,Electronics
+377,Isha Patel,39,Male,Delhi,113198.0,5,12,2890.68,39097.82,Books
+378,Aarav Mehta,60,Male,Bengaluru,34672.0,5,12,1487.18,16399.58,Beauty
+379,Aarav Verma,63,Female,Mumbai,57102.0,6,7,2203.91,16582.18,Electronics
+380,Sneha Sharma,21,Male,Bengaluru,70107.0,9,16,1985.37,33010.12,Electronics
+381,Ananya Patel,43,Male,Gurugram,59007.0,6,7,2883.97,21699.45,Electronics
+382,Tanvi Bisht,46,Male,Haridwar,63352.0,9,11,2622.37,28303.89,Home & Kitchen
+383,Aarav Verma,62,Female,Mumbai,77690.0,5,5,2251.56,12718.98,Electronics
+384,Ayush Gupta,51,Male,Mumbai,22000.0,8,15,1393.43,21732.11,Electronics
+385,Aarav Patel,40,Male,Jaipur,37128.0,11,15,1017.57,14294.14,Electronics
+386,Priya Joshi,54,Female,Chandigarh,65974.0,2,3,2314.37,7231.5,Beauty
+387,Rahul Kapoor,28,Female,Jaipur,56107.0,3,4,1640.81,6143.49,Sports
+388,Tanvi Patel,23,Male,Jaipur,67847.0,8,9,714.69,6033.99,Sports
+389,Rohan Mehta,35,Male,Haridwar,70008.0,3,3,1166.03,3392.73,Electronics
+390,Aditya Patel,38,Male,Bengaluru,22000.0,3,8,3242.7,28684.38,Books
+391,Rohan Patel,59,Female,Bengaluru,93020.0,4,11,1840.14,20243.35,Beauty
+392,Rohan Mishra,53,Male,Lucknow,54038.0,7,13,2999.96,41092.59,Books
+393,Nikhil Gupta,58,Female,Gurugram,45959.0,1,7,1800.43,12194.55,Home & Kitchen
+394,Tanvi Patel,55,Female,Haridwar,69584.0,7,10,3219.17,29908.72,Clothing
+395,Aditi Kumar,51,Female,Lucknow,67358.0,10,12,3147.88,42926.71,Sports
+396,Aditi Sharma,34,Male,Delhi,91327.0,6,6,1697.41,10500.94,Electronics
+397,Kavya Bisht,54,Female,Gurugram,70981.0,9,14,645.51,10213.64,Home & Kitchen
+398,Isha Singh,42,Female,Gurugram,90478.0,5,6,830.21,4538.05,Sports
+399,Aarav Sharma,55,Female,Noida,44360.0,11,16,1429.23,20445.27,Sports
+400,Kunal Verma,29,Male,Noida,68121.0,8,8,3730.43,33029.13,Books
+401,Kunal Joshi,40,Other,Dehradun,40476.0,2,2,1724.41,3636.01,Beauty
+402,Vivaan Mehta,59,Male,Dehradun,67149.0,3,3,2329.09,6330.28,Electronics
+403,Aditya Agarwal,39,Male,Jaipur,62486.0,3,6,3227.59,18025.6,Electronics
+404,Avni Kapoor,38,Male,Delhi,61539.0,4,8,2267.49,19776.13,Home & Kitchen
+405,Aarav Mehta,44,Female,Mumbai,61732.0,3,5,2241.1,11050.42,Home & Kitchen
+406,Diya Patel,48,Male,Mumbai,81201.0,6,9,2795.34,26445.2,Clothing
+407,Tanvi Malhotra,23,Male,Noida,29638.0,4,7,2219.0,14686.54,Electronics
+408,Sneha Joshi,44,Male,Noida,45205.0,8,15,2001.66,28955.08,Home & Kitchen
+409,Sneha Patel,57,Male,Noida,64107.0,6,10,1617.48,18555.95,Sports
+410,Aditi Verma,51,Female,Haridwar,39069.0,6,9,2107.21,17528.97,Books
+411,Ananya Gupta,29,Female,Chandigarh,66015.0,4,4,3081.61,12350.32,Beauty
+412,Vivek Mehta,62,Male,Dehradun,63881.0,5,5,3618.89,19963.98,Sports
+413,Vivaan Mehta,24,Male,Haridwar,34117.0,7,14,2248.52,29016.56,Home & Kitchen
+414,Avni Verma,27,Female,Bengaluru,33030.0,3,8,2612.31,20366.91,Books
+415,Avni Rawat,62,Male,Mumbai,22000.0,9,10,2157.78,22322.83,Beauty
+416,Sneha Agarwal,34,Male,Gurugram,38145.0,4,7,1969.01,13705.28,Sports
+417,Kavya Malhotra,43,Other,Dehradun,65315.0,6,7,2613.3,18070.85,Books
+418,Vivaan Singh,38,Female,Lucknow,68436.0,2,4,3172.08,12164.96,Books
+419,Rahul Sharma,45,Male,Bengaluru,69442.0,8,14,1517.56,21798.1,Clothing
+420,Sneha Kapoor,63,Female,Dehradun,47886.0,2,2,936.2,1942.26,Electronics
+421,Nikhil Gupta,19,Male,Haridwar,64597.0,7,12,1771.18,22231.57,Electronics
+422,Tanvi Patel,60,Female,Delhi,73739.0,8,10,2421.76,21096.2,Electronics
+423,Arjun Mishra,18,Male,Gurugram,37103.0,5,12,2728.52,34029.35,Electronics
+424,Tanvi Mishra,53,Male,Dehradun,67713.0,1,6,1424.67,9710.3,Electronics
+425,Tanvi Kapoor,43,Male,Chandigarh,79443.0,7,13,500.0,6579.92,Clothing
+426,Meera Negi,46,Female,Noida,54203.0,5,11,1727.66,20231.56,Home & Kitchen
+427,Rohan Verma,38,Female,Noida,88369.0,5,12,2185.08,26667.23,Beauty
+428,Rahul Patel,28,Male,Gurugram,54716.0,5,9,1208.48,12033.8,Electronics
+429,Vivaan Bisht,57,Male,Haridwar,46079.0,6,13,1481.6,21743.03,Beauty
+430,Ananya Agarwal,28,Female,Noida,77251.0,7,7,2967.33,18803.56,Beauty
+431,Priya Agarwal,53,Male,Dehradun,109732.0,7,9,2530.89,22346.55,Home & Kitchen
+432,Kavya Malhotra,56,Male,Lucknow,66878.0,7,11,2487.77,26481.97,Books
+433,Priya Malhotra,57,Other,Mumbai,78968.0,10,16,1999.26,31078.56,Electronics
+434,Ananya Mehta,52,Male,Mumbai,53808.0,7,9,1529.56,12219.53,Electronics
+435,Priya Negi,51,Female,Bengaluru,37684.0,3,8,1745.79,15280.34,Clothing
+436,Arjun Negi,64,Other,Jaipur,68658.0,9,13,2621.05,29328.21,Electronics
+437,Arjun Negi,41,Male,Delhi,72137.0,8,12,1049.77,12703.91,Home & Kitchen
+438,Aditya Gupta,39,Male,Gurugram,57126.0,9,9,3472.89,32773.91,Clothing
+439,Avni Bisht,22,Male,Bengaluru,78883.0,3,10,2743.18,25024.41,Clothing
+440,Kavya Gupta,50,Female,Jaipur,50610.0,9,10,1684.96,18901.12,Electronics
+441,Rohan Verma,53,Female,Haridwar,45154.0,8,13,2731.65,39118.16,Clothing
+442,Nikhil Bisht,64,Female,Chandigarh,88334.0,11,16,3317.88,52625.56,Home & Kitchen
+443,Rahul Sharma,37,Male,Chandigarh,88438.0,5,12,2076.36,24252.17,Home & Kitchen
+444,Rohan Kumar,36,Female,Delhi,51044.0,12,16,1943.0,28631.13,Electronics
+445,Diya Mishra,52,Female,Noida,102815.0,6,10,3621.67,38715.58,Electronics
+446,Aditi Verma,60,Female,Dehradun,58684.0,5,5,3857.28,17155.7,Electronics
+447,Tanvi Rawat,34,Female,Bengaluru,66865.0,5,6,2234.74,14133.45,Electronics
+448,Isha Agarwal,62,Female,Bengaluru,63138.0,4,9,1262.26,12527.47,Sports
+449,Ayush Mishra,60,Female,Gurugram,76523.0,4,10,1892.66,17384.87,Electronics
+450,Sneha Kumar,51,Female,Gurugram,70971.0,4,7,3062.24,23792.07,Beauty
+451,Sneha Negi,26,Male,Chandigarh,,9,12,1409.88,14549.91,Sports
+452,Ananya Malhotra,43,Male,Chandigarh,42570.0,1,2,1898.79,4267.86,Electronics
+453,Priya Bisht,19,Female,Lucknow,27852.0,7,9,2211.18,17622.17,Clothing
+454,Tanvi Mishra,26,Male,Lucknow,90128.0,6,6,1612.6,10098.69,Books
+455,Arjun Sharma,26,Female,Noida,53000.0,7,8,3005.15,22238.7,Sports
+456,Kunal Sharma,57,Other,Lucknow,63921.0,7,14,2748.7,42367.14,Home & Kitchen
+457,Aditya Bisht,34,Female,Dehradun,72190.0,4,11,3850.78,42514.89,Sports
+458,Meera Malhotra,18,Male,Dehradun,100838.0,4,7,3040.2,18952.63,Sports
+459,Sneha Malhotra,42,Male,Bengaluru,68550.0,4,8,1452.59,11868.21,Clothing
+460,Aditi Mishra,60,Male,Mumbai,56314.0,3,6,2572.18,15006.58,Books
+461,Aditi Negi,57,Female,Dehradun,53482.0,6,10,2921.31,30628.02,Home & Kitchen
+462,Vivaan Bisht,59,Female,Jaipur,64178.0,6,6,3026.65,20240.5,Home & Kitchen
+463,Aditi Agarwal,42,Female,Chandigarh,44994.0,7,11,1458.49,15607.28,Books
+464,Kavya Joshi,56,Male,Gurugram,65635.0,3,4,1486.74,5572.09,Sports
+465,Aditya Malhotra,52,Female,Lucknow,63856.0,6,10,1281.43,10947.96,Clothing
+466,Aditi Agarwal,20,Female,Bengaluru,101114.0,6,8,3700.47,30268.42,Electronics
+467,Sneha Kapoor,54,Male,Delhi,63161.0,3,10,2687.27,26084.86,Beauty
+468,Isha Verma,61,Female,Gurugram,22661.0,5,6,1288.99,7443.1,Beauty
+469,Rahul Gupta,61,Male,Jaipur,123817.0,7,14,2654.65,33629.98,Beauty
+470,Kavya Malhotra,47,Male,Lucknow,86050.0,4,4,2227.35,8722.45,Books
+471,Rohan Kapoor,55,Female,Jaipur,110812.0,5,6,1696.81,11660.47,Sports
+472,Nikhil Joshi,51,Male,Chandigarh,39539.0,2,4,2076.18,7800.84,Home & Kitchen
+473,Tanvi Joshi,29,Female,Chandigarh,60120.0,5,5,2323.28,11963.86,Electronics
+474,Diya Kumar,36,Female,Noida,79837.0,7,10,3834.02,41520.37,Home & Kitchen
+475,Tanvi Bisht,54,Female,Bengaluru,76801.0,5,7,1746.26,13137.52,Beauty
+476,Meera Kumar,61,Male,Gurugram,71753.0,6,6,873.0,4968.94,Home & Kitchen
+477,Arjun Mishra,34,Female,Haridwar,22000.0,8,14,1102.84,15953.26,Home & Kitchen
+478,Aditya Kumar,27,Female,Haridwar,27326.0,4,8,1259.84,11201.28,Home & Kitchen
+479,Isha Verma,64,Female,Gurugram,98385.0,8,9,2058.77,15835.46,Clothing
+480,Sneha Singh,29,Male,Delhi,102297.0,6,6,1586.58,9335.95,Clothing
+481,Sneha Mehta,33,Male,Bengaluru,62654.0,4,5,2843.62,13042.01,Home & Kitchen
+482,Vivaan Malhotra,41,Female,Jaipur,95589.0,3,7,1490.71,10086.33,Electronics
+483,Kunal Negi,36,Male,Delhi,42489.0,8,8,2080.95,16228.03,Clothing
+484,Tanvi Kapoor,25,Female,Mumbai,47523.0,5,8,3695.29,31749.97,Clothing
+485,Kavya Mishra,48,Female,Gurugram,40750.0,10,16,2497.35,35088.63,Home & Kitchen
+486,Ayush Patel,38,Female,Jaipur,46302.0,6,12,2448.42,29491.96,Electronics
+487,Rahul Singh,34,Female,Haridwar,80899.0,4,6,3781.25,23124.43,Sports
+488,Vivaan Agarwal,40,Female,Dehradun,46028.0,8,8,3082.69,24618.3,Home & Kitchen
+489,Isha Mehta,54,Female,Noida,114274.0,3,7,2947.74,22069.53,Beauty
+490,Rohan Kumar,33,Female,Haridwar,75122.0,7,7,2012.15,13594.01,Beauty
+491,Aarav Patel,23,Female,Bengaluru,88860.0,6,7,2325.01,18447.63,Clothing
+492,Rahul Mehta,25,Male,Chandigarh,75779.0,7,12,2207.63,26346.94,Home & Kitchen
+493,Priya Singh,42,Male,Dehradun,91714.0,5,12,2039.14,24992.45,Books
+494,Ananya Rawat,35,Female,Noida,45904.0,3,3,2255.05,7425.83,Sports
+495,Ayush Joshi,42,Male,Noida,96833.0,6,12,2671.6,29897.47,Books
+496,Aditya Gupta,29,Male,Mumbai,68101.0,6,12,1222.9,12804.65,Beauty
+497,Kunal Patel,32,Male,Mumbai,91604.0,9,16,3665.26,62299.76,Electronics
+498,Arjun Negi,43,Female,Lucknow,33330.0,1,7,2337.82,16281.34,Electronics
+499,Rahul Verma,58,Female,Haridwar,68973.0,9,12,2013.61,27037.58,Home & Kitchen
+500,Meera Kapoor,62,Female,Haridwar,68195.0,6,6,2396.11,16458.46,Clothing
+21,Kavya Joshi,37,Female,Dehradun,53171.0,7,12,1952.69,21274.05,Home & Kitchen
+76,Arjun Rawat,47,Female,Dehradun,22397.0,4,7,2098.76,12575.97,Electronics
+141,Aarav Rawat,53,Female,Dehradun,45469.0,4,9,2868.33,28345.42,Sports

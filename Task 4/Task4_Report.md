@@ -1,0 +1,652 @@
+# CODSOFT Internship — Task 4
+
+## Customer Segmentation and Purchasing Behavior Analysis
+
+---
+
+## 1. Objective
+
+The objective of this task is to analyze customer information to understand purchasing behavior and identify valuable customer groups.
+
+The analysis focuses on:
+
+- Understanding customer demographics
+- Examining purchasing behavior
+- Segmenting customers based on spending
+- Comparing customers by age and location
+- Identifying the most valuable customer groups
+- Creating meaningful visualizations
+- Developing marketing strategies based on the findings
+
+---
+
+## 2. Dataset Overview
+
+The dataset contains information about 500 customers and includes the following features:
+
+- Customer ID
+- Name
+- Age
+- Gender
+- Location
+- Annual Income
+- Purchase Frequency
+- Total Purchases
+- Average Order Value
+- Total Spending
+- Preferred Category
+
+The dataset initially contained a small number of missing values and duplicate records. These were handled during the data-cleaning stage.
+
+After cleaning:
+
+- Records: **500**
+- Features: **11**
+- Missing values: **0**
+- Duplicate records: **0**
+
+---
+
+## 3. Data Cleaning
+
+The dataset was inspected for missing values, duplicate records, and incorrect data types.
+
+### Duplicate Records
+
+Three duplicate records were identified and removed.
+
+### Missing Values
+
+Missing numerical values were handled using the median.
+
+Missing categorical values were handled using the mode.
+
+After cleaning:
+
+```text
+Missing Values: 0
+Duplicate Records: 0
+
+# 4. Data Cleaning
+
+## 4.1 Duplicate Records
+
+Three duplicate records were identified.
+
+They were removed using:
+
+```python
+df = df.drop_duplicates()
+
+After removing duplicates:
+
+500 records
+11 columns
+4.2 Missing Values
+
+Missing values were checked using:
+
+df.isnull().sum()
+
+Missing numerical values were filled using the median.
+
+The following numerical columns were processed:
+
+Annual_Income
+Average_Order_Value
+
+Missing categorical values were filled using the mode.
+
+The following categorical columns were processed:
+
+Location
+Preferred_Category
+
+After cleaning:
+
+Missing Values: 0
+Duplicate Records: 0
+5. Descriptive Statistics
+
+Descriptive statistics were calculated for the numerical customer variables.
+
+Important variables included:
+
+Age
+Annual Income
+Purchase Frequency
+Total Purchases
+Average Order Value
+Total Spending
+
+The describe() function was used to examine:
+
+Count
+Mean
+Standard deviation
+Minimum
+Maximum
+Quartiles
+
+This helped understand the overall characteristics of the customer dataset.
+
+6. Purchasing Behavior Analysis
+
+The average customer spending was calculated using:
+
+df["Total_Spending"].mean()
+Result
+
+Average Customer Spending: ₹20,763.39
+
+This indicates that the average customer in the dataset spends approximately ₹20,763.
+
+7. Preferred Product Category Analysis
+
+Customers were analyzed according to their preferred product category.
+
+Category	Number of Customers
+Electronics	127
+Clothing	100
+Home & Kitchen	77
+Beauty	71
+Sports	64
+Books	61
+Finding
+
+Electronics is the most popular category with 127 customers.
+
+Electronics represents the largest customer preference in the dataset.
+
+8. Location Analysis
+
+Customer spending was analyzed across different locations.
+
+Total Spending by Location
+Location	Total Spending
+Mumbai	₹12,55,195.13
+Bengaluru	₹11,24,557.14
+Dehradun	₹11,17,973.93
+Noida	₹11,13,174.35
+Lucknow	₹10,62,499.24
+Chandigarh	₹9,84,886.73
+Haridwar	₹9,81,554.16
+Gurugram	₹9,63,153.53
+Jaipur	₹9,04,688.09
+Delhi	₹8,74,014.04
+Finding
+
+Mumbai generates the highest total customer spending with ₹12,55,195.13.
+
+Therefore, Mumbai represents an important market based on overall revenue.
+
+9. Age-Based Customer Segmentation
+
+Customers were divided into four age groups:
+
+18–25
+26–35
+36–50
+51+
+
+The following code was used:
+
+bins = [17, 25, 35, 50, 100]
+
+labels = [
+    "18-25",
+    "26-35",
+    "36-50",
+    "51+"
+]
+
+df["Age_Group"] = pd.cut(
+    df["Age"],
+    bins=bins,
+    labels=labels
+)
+Age Group Analysis
+Age Group	Customers	Average Spending	Total Spending
+18–25	84	₹20,775.42	₹17,45,134.94
+26–35	97	₹19,647.57	₹19,05,814.09
+36–50	160	₹21,323.26	₹34,11,722.37
+51+	159	₹20,874.37	₹33,19,024.94
+Finding
+
+The 36–50 age group is the most valuable age group.
+
+It has:
+
+The largest number of customers: 160
+The highest average spending: ₹21,323.26
+The highest total spending: ₹34,11,722.37
+10. Customer Spending Segmentation
+
+Customers were segmented according to their total spending.
+
+The qcut() method was used to divide customers into three groups:
+
+Low Value
+Medium Value
+High Value
+df["Spending_Segment"] = pd.qcut(
+    df["Total_Spending"],
+    q=3,
+    labels=[
+        "Low Value",
+        "Medium Value",
+        "High Value"
+    ]
+)
+Customer Distribution
+Segment	Customers
+Low Value	167
+Medium Value	166
+High Value	167
+
+The three groups contain approximately equal numbers of customers because quantile-based segmentation was used.
+
+11. Revenue by Customer Segment
+
+The total revenue generated by each customer segment was calculated.
+
+Customer Segment	Total Revenue
+High Value	₹55,32,899.02
+Medium Value	₹32,05,337.44
+Low Value	₹16,43,459.88
+Finding
+
+The High Value segment generates the most revenue.
+
+High Value customers generate approximately:
+
+₹55.33 lakh
+
+This makes them the most important customer group for retention and loyalty strategies.
+
+12. Most Valuable Individual Customer
+
+The highest-spending customer was identified using:
+
+top_customer = df.loc[
+    df["Total_Spending"].idxmax()
+]
+Result
+Attribute	Value
+Customer ID	117
+Name	Tanvi Malhotra
+Age	64
+Gender	Male
+Location	Jaipur
+Annual Income	₹60,581
+Purchase Frequency	13
+Total Purchases	18
+Average Order Value	₹3,775.81
+Total Spending	₹73,462.41
+Preferred Category	Home & Kitchen
+Age Group	51+
+Spending Segment	High Value
+Finding
+
+Customer 117, Tanvi Malhotra, is the highest-spending individual customer with total spending of:
+
+₹73,462.41
+
+The customer belongs to the High Value segment.
+
+13. Purchase Frequency Analysis
+
+Purchase frequency was analyzed to understand whether frequent customers tend to spend more.
+
+Purchase Frequency	Customers	Average Spending	Total Spending
+1	12	₹8,305.40	₹99,664.76
+2	18	₹8,193.06	₹1,47,475.16
+3	45	₹14,367.95	₹6,46,557.90
+4	79	₹17,211.94	₹13,59,742.98
+5	57	₹18,288.04	₹10,42,418.37
+6	84	₹21,022.71	₹17,65,907.30
+7	70	₹23,302.30	₹16,31,160.89
+8	46	₹24,009.86	₹11,04,453.56
+9	43	₹27,445.64	₹11,80,162.42
+10	23	₹26,887.56	₹6,18,413.79
+11	10	₹35,481.47	₹3,54,814.65
+12	5	₹24,301.74	₹1,21,508.72
+13	6	₹33,934.57	₹2,03,607.41
+14	2	₹52,904.22	₹1,05,808.43
+Finding
+
+The analysis shows a general positive relationship between purchase frequency and spending.
+
+For example:
+
+Frequency 1 → approximately ₹8,305 average spending
+Frequency 6 → approximately ₹21,023 average spending
+Frequency 9 → approximately ₹27,446 average spending
+Frequency 11 → approximately ₹35,481 average spending
+Frequency 14 → approximately ₹52,904 average spending
+
+Therefore, encouraging repeat purchases may increase customer revenue.
+
+14. Gender-Based Customer Analysis
+
+Customer behavior was also analyzed by gender.
+
+Gender	Customers	Average Spending	Total Spending	Average Purchases
+Male	234	₹21,630.87	₹50,61,622.83	9.77
+Female	244	₹20,073.61	₹48,97,959.74	9.07
+Other	22	₹19,186.99	₹4,22,113.77	9.18
+Finding
+
+Male customers have the highest average spending:
+
+₹21,630.87
+
+However, the differences should be interpreted carefully because customer counts differ between groups.
+
+15. Average Spending by Location
+
+Total spending and average spending provide different business insights.
+
+Average spending was calculated for each location.
+
+Location	Average Spending
+Noida	₹24,199.44
+Lucknow	₹23,097.81
+Mumbai	₹22,414.20
+Haridwar	₹20,449.05
+Dehradun	₹20,326.80
+Delhi	₹20,325.91
+Jaipur	₹19,667.13
+Gurugram	₹19,656.19
+Bengaluru	₹19,388.92
+Chandigarh	₹18,582.77
+Finding
+
+Noida has the highest average customer spending at ₹24,199.44.
+
+This is different from total revenue:
+
+Mumbai has the highest total spending
+Noida has the highest average spending per customer
+16. Revenue by Product Category
+
+Total spending was analyzed for each product category.
+
+Category	Total Spending
+Electronics	₹27,87,451.26
+Clothing	₹20,03,327.07
+Home & Kitchen	₹16,04,218.92
+Beauty	₹13,92,608.05
+Sports	₹13,42,398.25
+Books	₹12,51,692.79
+Finding
+
+Electronics generates the highest revenue with ₹27,87,451.26.
+
+Electronics is therefore important from both:
+
+Customer preference
+Revenue generation
+
+perspectives.
+
+17. Visualizations
+
+Several visualizations were created using Matplotlib and Seaborn.
+
+17.1 Average Spending by Age Group
+
+A bar chart was created to compare average customer spending across age groups.
+
+The visualization helps identify the most valuable age segment.
+
+The 36–50 age group has the highest average spending.
+
+17.2 Total Spending by Location
+
+A bar chart was created to compare total spending across different locations.
+
+Mumbai has the highest total spending.
+
+17.3 Preferred Category Distribution
+
+A pie chart was created to show the percentage distribution of customers across preferred categories.
+
+Electronics represents the largest category.
+
+17.4 Customer Spending Segments
+
+A bar chart was created to compare the number of customers in:
+
+Low Value
+Medium Value
+High Value
+
+The three segments contain approximately equal numbers of customers because quantile-based segmentation was used.
+
+17.5 Purchase Frequency vs Total Spending
+
+A scatter plot was created to examine the relationship between purchase frequency and total spending.
+
+The visualization shows that customers with higher purchase frequency generally tend to have higher spending.
+
+17.6 Correlation Heatmap
+
+A correlation heatmap was created using numerical variables:
+
+Age
+Annual Income
+Purchase Frequency
+Total Purchases
+Average Order Value
+Total Spending
+
+The heatmap helps identify relationships between customer characteristics and purchasing behavior.
+
+18. Business Questions
+Q1. What is the average customer spending?
+
+Answer: ₹20,763.39.
+
+Q2. Which product category is most popular?
+
+Answer: Electronics, with 127 customers.
+
+Q3. Which location generates the highest total spending?
+
+Answer: Mumbai, with ₹12,55,195.13.
+
+Q4. Which age group is the most valuable?
+
+Answer: The 36–50 age group.
+
+It has total spending of:
+
+₹34,11,722.37
+
+and average spending of:
+
+₹21,323.26.
+
+Q5. Which customer segment generates the most revenue?
+
+Answer: High Value customers.
+
+They generate:
+
+₹55,32,899.02
+
+in total revenue.
+
+Q6. Which location has the highest average customer spending?
+
+Answer: Noida.
+
+Average spending:
+
+₹24,199.44
+
+Q7. Which category generates the most revenue?
+
+Answer: Electronics.
+
+Total revenue:
+
+₹27,87,451.26
+
+Q8. Who is the highest-spending individual customer?
+
+Answer: Customer 117, Tanvi Malhotra.
+
+Total spending:
+
+₹73,462.41
+
+Q9. Does purchase frequency appear related to spending?
+
+Answer: Yes.
+
+Customers with higher purchase frequencies generally have higher average spending.
+
+19. Most Valuable Customer Groups
+
+Based on the analysis, the most valuable groups are:
+
+High Value Customers
+
+These customers generate the largest amount of revenue.
+
+Total Revenue: ₹55,32,899.02
+
+Age 36–50
+
+This age group has the highest average and total spending.
+
+Total Revenue: ₹34,11,722.37
+
+Noida Customers
+
+Noida has the highest average spending per customer.
+
+Average Spending: ₹24,199.44
+
+Mumbai Customers
+
+Mumbai has the highest total spending.
+
+Total Spending: ₹12,55,195.13
+
+Electronics Customers
+
+Electronics generates the highest category revenue.
+
+Revenue: ₹27,87,451.26
+
+20. Marketing Strategies
+Strategy 1 — Retain High Value Customers
+
+High Value customers generate approximately ₹55.33 lakh.
+
+Recommended actions:
+
+VIP loyalty programs
+Exclusive discounts
+Early access to products
+Personalized recommendations
+Premium customer support
+Special birthday or anniversary offers
+Strategy 2 — Promote Electronics
+
+Electronics is the most popular category and generates the highest revenue.
+
+Recommended actions:
+
+Electronics bundles
+Accessory recommendations
+Limited-time discounts
+Product upgrade campaigns
+Cross-selling accessories
+Electronics loyalty rewards
+Strategy 3 — Target Customers Aged 36–50
+
+The 36–50 age group has the highest spending.
+
+Recommended actions:
+
+Personalized advertisements
+Premium product recommendations
+Family-oriented bundles
+Loyalty rewards
+Higher-value product promotions
+Strategy 4 — Location-Based Marketing
+
+Noida has the highest average spending while Mumbai has the highest total spending.
+
+Recommended actions:
+
+Noida
+
+Focus on:
+
+Premium products
+Higher-value bundles
+Personalized offers
+Mumbai
+
+Focus on:
+
+Increasing customer acquisition
+Local advertising
+Loyalty campaigns
+Repeat-purchase promotions
+Strategy 5 — Increase Purchase Frequency
+
+The analysis indicates that frequent purchasers generally spend more.
+
+Recommended actions:
+
+Loyalty points
+Repeat-purchase discounts
+Monthly coupons
+Personalized reminders
+"Buy Again" recommendations
+Subscription programs
+Membership benefits
+21. Key Findings
+
+The major findings are:
+
+Average customer spending is ₹20,763.39.
+Electronics is the most popular category.
+Electronics generates the highest category revenue.
+Mumbai generates the highest total spending.
+Noida has the highest average customer spending.
+The 36–50 age group is the most valuable age group.
+High Value customers generate the most revenue.
+Purchase frequency generally increases with customer spending.
+Customer 117 is the highest individual spender.
+Location-based marketing can help target high-value markets.
+Customer segmentation can help improve retention and marketing efficiency.
+22. Conclusion
+
+This customer segmentation analysis provided insights into customer demographics, purchasing behavior, spending patterns, preferred categories, and geographic differences.
+
+The analysis identified the High Value customer segment as the most important revenue-generating group.
+
+The 36–50 age group was identified as the most valuable age group based on both average and total spending.
+
+Electronics was found to be the most popular category and the highest-revenue category.
+
+From a geographic perspective, Mumbai generated the highest total spending, while Noida had the highest average customer spending.
+
+The analysis also demonstrated that customers with higher purchase frequencies generally tend to spend more.
+
+These findings can be used to develop targeted marketing strategies, improve customer retention, increase repeat purchases, and allocate marketing resources toward the most valuable customer groups.
+
+23. Technologies Used
+Python
+Pandas
+NumPy
+Matplotlib
+Seaborn
+Jupyter Notebook
