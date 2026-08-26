@@ -82,7 +82,7 @@ Python → Data Cleaning → EDA → Visualization → Customer Analytics → We
 
 The repository contains the complete notebooks, datasets, reports, visualizations, and exported files for each task.
 
-👩‍💻 Internship
+Internship
 
 CODSOFT Internship
 
@@ -90,7 +90,7 @@ Domain: Data Science / Python
 
 Tasks Completed: 5
 
-⭐ Repository
+Repository
 
 CODSOFT_TASKSNO
 
